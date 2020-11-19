@@ -13,6 +13,7 @@ namespace ExampleProjectMergingFiles
 
             var sizeOfMergedFileFirstTimeRound = 0;
 
+            // run the test 100 times to show that the problem appears randomly about 5% of the time
             for (int i = 0; i < 100; i++)
             {
                 // List of source file names.
